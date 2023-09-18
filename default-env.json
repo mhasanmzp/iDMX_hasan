@@ -1,0 +1,36 @@
+{
+    "VCAP_SERVICES": {
+        "hana": [
+            {
+                "label": "hana",
+                "provider": null,
+                "plan": "hdi-shared",
+                "name": "IDMx-1-hdiidmx-db-deployer-ws-8j7hj",
+                "tags": [
+                    "hana",
+                    "database",
+                    "relational"
+                ],
+                "instance_guid": "eadb2712-c61f-4508-874e-9bd30a5d9d7a",
+                "instance_name": "IDMx-1-hdiidmx-db-deployer-ws-8j7hj",
+                "binding_guid": "699504da-a077-4906-a694-a805ed03ce58",
+                "binding_name": null,
+                "credentials": {
+                    
+                        "url": "jdbc:sap://ed0ebb0a-47da-414a-a505-86c4e4819dd8.hana.trial-us10.hanacloud.ondemand.com:443?encrypt=true&validateCertificate=true&currentschema=IDMX_1_HDI_IDMX_DB_DEPLOYER_1",
+                        "certificate": "-----BEGIN CERTIFICATE-----\nMIIDrzCCApegAwIBAgIQCDvgVpBCRrGhdWrJWZHHSjANBgkqhkiG9w0BAQUFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0wNjExMTAwMDAwMDBaFw0zMTExMTAwMDAwMDBaMGExCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j\nb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IENBMIIBIjANBgkqhkiG\n9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jvhEXLeqKTTo1eqUKKPC3eQyaKl7hLOllsB\nCSDMAZOnTjC3U/dDxGkAV53ijSLdhwZAAIEJzs4bg7/fzTtxRuLWZscFs3YnFo97\nnh6Vfe63SKMI2tavegw5BmV/Sl0fvBf4q77uKNd0f3p4mVmFaG5cIzJLv07A6Fpt\n43C/dxC//AH2hdmoRBBYMql1GNXRor5H4idq9Joz+EkIYIvUX7Q6hL+hqkpMfT7P\nT19sdl6gSzeRntwi5m3OFBqOasv+zbMUZBfHWymeMr/y7vrTC0LUq7dBMtoM1O/4\ngdW7jVg/tRvoSSiicNoxBN33shbyTApOB6jtSj1etX+jkMOvJwIDAQABo2MwYTAO\nBgNVHQ8BAf8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUA95QNVbR\nTLtm8KPiGxvDl7I90VUwHwYDVR0jBBgwFoAUA95QNVbRTLtm8KPiGxvDl7I90VUw\nDQYJKoZIhvcNAQEFBQADggEBAMucN6pIExIK+t1EnE9SsPTfrgT1eXkIoyQY/Esr\nhMAtudXH/vTBH1jLuG2cenTnmCmrEbXjcKChzUyImZOMkXDiqw8cvpOp/2PV5Adg\n06O/nVsJ8dWO41P0jmP6P6fbtGbfYmbW0W5BjfIttep3Sp+dWOIrWcBAI+0tKIJF\nPnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls\nYSEY1QSteDwsOoBrp+uvFRTp2InBuThs4pFsiv9kuXclVzDAGySj4dzp30d8tbQk\nCAUw7C29C79Fv1C5qfPrmAESrciIxpg0X40KPMbp1ZWVbd4=\n-----END CERTIFICATE-----",
+                        "database_id": "ed0ebb0a-47da-414a-a505-86c4e4819dd8",
+                        "driver": "com.sap.db.jdbc.Driver",
+                        "hdi_password": "Ii0SWHQ-cFHEZTnY0b-EGa0NetE0LYO0zVothX.3nv.6uiztiI7X9z-muu8mvk5j6PAEUl8ow-o6Lbz6EQLhfFySpgW82jkDEKHQtQfIgBzsJWhSrEd3bgX7-Trz0u6N",
+                        "hdi_user": "IDMX_1_HDI_IDMX_DB_DEPLOYER_1_87FIUKDK3K2MXUZG59LYYB137_DT",
+                        "host": "ed0ebb0a-47da-414a-a505-86c4e4819dd8.hana.trial-us10.hanacloud.ondemand.com",
+                        "password": "Mf9S-.ERSwHn-Esu_tnqG.Ny-RBnNXwEO-lZtl.mLIy6xT1S.Nm-533zVK7TkUtBfZvQGGj2PCFBwrVSNoKsxokI2_OuNlGE8UvdPnQgjV6k2zbfowOZVk9gY_QajmuI",
+                        "port": "443",
+                        "schema": "IDMX_1_HDI_IDMX_DB_DEPLOYER_1",
+                        "user": "IDMX_1_HDI_IDMX_DB_DEPLOYER_1_87FIUKDK3K2MXUZG59LYYB137_RT"
+                    }
+                
+            }
+        ]
+    }
+}
