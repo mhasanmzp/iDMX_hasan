@@ -84,8 +84,7 @@ entity customer {
 entity Vendor {
 
         Sno                     :Integer64;
-
-    Vendor_Account_Group  : String(50);
+    Vendor_Account_Group  :Association to Account_Group;
     Vendor_Name           : String(50);
     Search_Term           : String(50);
     Vendor_Setup_Reason   : String(50);
@@ -94,7 +93,7 @@ entity Vendor {
     Street                : String(50);
     Postal_Code           : Integer;
     City_Name             : String(50);
-    Country_Region        : String(50);
+    Country_Region : Association to Country;
     Region                : String(50);
     Phone_No              : Integer64;
     Mobile_No             : Integer64;
@@ -153,7 +152,18 @@ entity Article {
     MRP_Controller_DC       : String(50);
     MRP_Type                : String(50);
     Lot_sizing_proc         : String(50); 
-MRP_Controller              : String(50);
+    MRP_Controller           : String(50);
+}
 
+entity Account_Group{
+
+Account_Group_name: String(50);
 
 }
+
+entity Country {
+
+Country_name : String(50);
+
+}
+

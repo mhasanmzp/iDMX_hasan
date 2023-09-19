@@ -5,6 +5,9 @@ service services {
     entity CustomerData as projection on idmx.customer;
     entity Vendor as projection on idmx.Vendor;
     entity Article as projection on idmx.Article;
+    // entity Country as projection on idmx.Country;
+    entity Country as select from idmx.Country where Country_name  = 'AE_Utd_Arab_Emir';
+    entity Account_Group as projection on idmx.Account_Group;
     // entity materialType as select from idmx.material {
     //     key MaterialType
     // };
